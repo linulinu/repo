@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+th {
+    font-size: 13px
+}
+
+.inf {
+    color: #7f7f7f
+}
+
+form {
+    display: inline
+}
+
+a:hover {
+    color: #7f7f7f
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+table,tbody,thead {
+  empty-cells: show;
+    display: table;
+    width: 100%;
+  table-layout: fixed
+}
+textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px
+}
+
+td,th {
+    font-size: 12px;
+    vertical-align: middle;
+    border: 1px solid #e5f0e9
+}
+
+a {
+    color: #e5e9f0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px
+}
+
+body {
+    display: block;
+    background-color: #2e3440;
+    color: #e5e9f0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    line-height: 2em;
+    text-align: center
+}
+
+input,
+textarea,
+select,
+button {
+    color: #e5e9f0;
+    background-color: #2e3440;
+    border: 1px solid #e5f0e9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px
+}
+
+#emem {
+    width: 15em
+}
+
+b {
+    letter-spacing: 1.6px;
+}
+
+#ememm {
+    width: 32.4em
+}
+#l {
+    text-align: left
+}
+
+#r {
+    text-align: right
+}
+
+#c {
+    text-align: center
+}
+
+textarea {
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+::placeholder {
+    color: #e5e9f0;
+    opacity: 1
+}
+
+:-ms-input-placeholder {
+    color: #e5e9f0
+}
+
+::-ms-input-placeholder {
+    color: #e5e9f0
+}
+
+@supports (-moz-appearance:none) {
+    #ememm {
+        width: 32em
+    }
+    b {
+        letter-spacing: 1.6px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 6px
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #2e3440
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e5e9f0;
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #e5e9f0
+}
